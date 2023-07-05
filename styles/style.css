@@ -1,4 +1,4 @@
-.content-section{
+.content-section {
     width: 100%;
     max-width: 1440px;
     margin: auto;
@@ -111,11 +111,11 @@
     text-align: right;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 60px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: normal;
 }
 
@@ -212,7 +212,7 @@
     background-size: cover;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     padding: 40px;
     font-size:20px;
     text-decoration: underline;
