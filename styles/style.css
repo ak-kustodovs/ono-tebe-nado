@@ -30,7 +30,7 @@
      text-underline-position: under;
  }
  
- .header__links-list-item_no-underline {
+ .header__links-list-item_active {
      text-decoration: none;
  }
 
@@ -58,6 +58,7 @@
     font-style: normal;
     justify-self: end;
     align-self: center;
+    max-width:240px;
 }
 
 .address__item {
@@ -95,6 +96,7 @@
     color: white;
     position: relative;
     z-index: 1;
+    text-transform: uppercase;
 }
 
 .aligned-text {
@@ -137,6 +139,7 @@
     font-weight: 400;
     line-height: 28px;
     word-spacing: 18px;
+    text-transform: uppercase;
 }
 
 .bet-button {
@@ -147,6 +150,8 @@
     height: 52px;
     width: 257px;
     background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .lots {
@@ -157,6 +162,7 @@
     font-size: 40px;
     margin: 0 0 30px 40px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -170,7 +176,7 @@
 .lots__card-list-item {
     display: block;
     width: 430px;
-    height: 450px;
+    min-height: 450px;
     position: relative;
 }
 
@@ -189,6 +195,7 @@
     z-index: 1;
     text-decoration: underline;
     text-underline-position: under;
+    text-transform: uppercase;
 }
 
 .card__text {
@@ -213,7 +220,8 @@
 }
 
 .lots__look-more-link {
-    padding: 40px;
+    display:block;
+    padding: 0px 40px;
     font-size:20px;
     text-decoration: underline;
     text-underline-position: under;
@@ -266,7 +274,16 @@
     align-content: flex-start;
 }
 
-.footer-menu {
+.footer__address {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    justify-self: end;
+    align-self: center;
+    max-width:240px;
+}
+
+.footer__menu {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -279,16 +296,18 @@
 }
 
 .footer__links-list-item {
-    list-style: circle;
-    text-decoration: underline;
+    list-style: none;
     text-underline-position: under;
 }
 
-.footer__links-list-item_no-bullit {
-    list-style: none;
+.footer__link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-underline-position: under;
 }
- 
-.footer_links-list-item_no-underline {
+
+.footer_links-list-item_active {
     text-decoration: none;
 }
 
