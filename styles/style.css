@@ -177,7 +177,6 @@
     width: 430px;
     min-height: 450px;
     position: relative;
-    text-decoration: none;
 }
 
 .card {
@@ -196,6 +195,10 @@
     text-decoration: underline;
     text-underline-position: under;
     text-transform: uppercase;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card__text {
